@@ -32,10 +32,10 @@ if __name__ == '__main__':
 
     options = '''1. Scan and map devices if nmap is on the device '''
 
-    host = "192.168.1.108"
+    host = ""
     port = 22
-    username = "root"
-    pwd = "#guitar#"
+    username = ""
+    pwd = ""
 
     ssh = SSHClient()
     ssh.set_missing_host_key_policy(AutoAddPolicy())

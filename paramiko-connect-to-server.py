@@ -3,8 +3,8 @@ from paramiko import AutoAddPolicy, SSHClient
 
 host = "192.168.1.108"
 port = 22
-username = "root"
-pwd = "#guitar#"
+username = ""
+pwd = ""
 
 ssh = SSHClient()
 ssh.set_missing_host_key_policy(AutoAddPolicy())
